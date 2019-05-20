@@ -1334,41 +1334,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "substrate-weather-runtime"
-version = "1.0.0"
-dependencies = [
- "parity-codec 3.5.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "safe-mix 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "serde 1.0.89 (registry+https://github.com/rust-lang/crates.io-index)",
- "serde_derive 1.0.89 (registry+https://github.com/rust-lang/crates.io-index)",
- "sr-io 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
- "sr-primitives 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
- "sr-std 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
- "sr-version 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
- "srml-aura 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
- "srml-balances 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
- "srml-consensus 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
- "srml-executive 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
- "srml-indices 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
- "srml-sudo 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
- "srml-support 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
- "srml-system 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
- "srml-timestamp 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
- "substrate-client 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
- "substrate-consensus-aura-primitives 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
- "substrate-consensus-authorities 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
- "substrate-offchain-primitives 0.1.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
- "substrate-primitives 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
-]
-
-[[package]]
-name = "substrate-weather-runtime-wasm"
-version = "1.0.0"
-dependencies = [
- "substrate-weather-runtime 1.0.0",
-]
-
-[[package]]
 name = "nodrop"
 version = "0.1.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2775,6 +2740,41 @@ dependencies = [
  "substrate-primitives 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
  "trie-db 0.12.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "trie-root 0.12.2 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "substrate-weather-runtime"
+version = "1.0.0"
+dependencies = [
+ "parity-codec 3.5.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "safe-mix 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde 1.0.89 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde_derive 1.0.89 (registry+https://github.com/rust-lang/crates.io-index)",
+ "sr-io 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
+ "sr-primitives 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
+ "sr-std 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
+ "sr-version 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
+ "srml-aura 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
+ "srml-balances 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
+ "srml-consensus 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
+ "srml-executive 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
+ "srml-indices 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
+ "srml-sudo 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
+ "srml-support 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
+ "srml-system 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
+ "srml-timestamp 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
+ "substrate-client 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
+ "substrate-consensus-aura-primitives 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
+ "substrate-consensus-authorities 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
+ "substrate-offchain-primitives 0.1.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
+ "substrate-primitives 1.0.0 (git+https://github.com/paritytech/substrate.git?rev=1d61a492adee6d48569f475705c92699ee3cd69b)",
+]
+
+[[package]]
+name = "substrate-weather-runtime-wasm"
+version = "1.0.0"
+dependencies = [
+ "substrate-weather-runtime 1.0.0",
 ]
 
 [[package]]
